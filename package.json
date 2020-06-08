@@ -1,0 +1,33 @@
+{
+  "name": "simple-condition-assignment-server",
+  "version": "1.0.0",
+  "description": "A simple server for assigning and tracking condition assignments to clients.",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "sqlite3": "^4.2.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js > server.log",
+    "dev-start": "nodemon server.js"
+  },
+  "author": "Scott Bateman",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/scottbateman/simple-csv-server.git"
+  },
+  "keywords": [
+    "simple",
+    "experiment",
+    "conditions",
+    "server",
+    "sqlite3"
+  ],
+  "bugs": {
+    "url": "https://github.com/scottbateman/simple-condition-assignment-server/issues"
+  },
+  "homepage": "https://github.com/scottbateman/simple-condition-assignment-server#readme"
+}
